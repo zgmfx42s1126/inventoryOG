@@ -31,20 +31,20 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.ibIUser = new System.Windows.Forms.Label();
-            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.CenterPanel = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.ibIUser = new System.Windows.Forms.Label();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.CenterPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel2.SuspendLayout();
-            this.guna2Panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
+            this.guna2Panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Panel1
@@ -76,41 +76,34 @@
             this.guna2Panel2.FillColor = System.Drawing.Color.RoyalBlue;
             this.guna2Panel2.Location = new System.Drawing.Point(0, 100);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(231, 680);
+            this.guna2Panel2.Size = new System.Drawing.Size(377, 680);
             this.guna2Panel2.TabIndex = 1;
             this.guna2Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel2_Paint);
             // 
-            // ibIUser
+            // guna2Button7
             // 
-            this.ibIUser.AutoSize = true;
-            this.ibIUser.BackColor = System.Drawing.Color.Transparent;
-            this.ibIUser.ForeColor = System.Drawing.Color.White;
-            this.ibIUser.Location = new System.Drawing.Point(79, 89);
-            this.ibIUser.Name = "ibIUser";
-            this.ibIUser.Size = new System.Drawing.Size(75, 20);
-            this.ibIUser.TabIndex = 2;
-            this.ibIUser.Text = "Username";
-            this.ibIUser.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // guna2Panel3
-            // 
-            this.guna2Panel3.Controls.Add(this.CenterPanel);
-            this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Panel3.Location = new System.Drawing.Point(231, 100);
-            this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(1114, 680);
-            this.guna2Panel3.TabIndex = 2;
-            // 
-            // CenterPanel
-            // 
-            this.CenterPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.CenterPanel.Location = new System.Drawing.Point(6, 6);
-            this.CenterPanel.Name = "CenterPanel";
-            this.CenterPanel.Size = new System.Drawing.Size(1136, 671);
-            this.CenterPanel.TabIndex = 3;
-            this.CenterPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel4_Paint);
+            this.guna2Button7.AutoRoundedCorners = true;
+            this.guna2Button7.BackColor = System.Drawing.Color.RoyalBlue;
+            this.guna2Button7.BorderRadius = 21;
+            this.guna2Button7.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.guna2Button7.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(92)))), ((int)(((byte)(214)))));
+            this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button7.FillColor = System.Drawing.Color.RoyalBlue;
+            this.guna2Button7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button7.ForeColor = System.Drawing.Color.White;
+            this.guna2Button7.Image = global::inventory.Properties.Resources.user_1_;
+            this.guna2Button7.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button7.ImageOffset = new System.Drawing.Point(15, 0);
+            this.guna2Button7.Location = new System.Drawing.Point(12, 445);
+            this.guna2Button7.Name = "guna2Button7";
+            this.guna2Button7.Size = new System.Drawing.Size(200, 45);
+            this.guna2Button7.TabIndex = 7;
+            this.guna2Button7.Text = "User";
+            this.guna2Button7.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button7.TextOffset = new System.Drawing.Point(30, 0);
             // 
             // guna2Button6
             // 
@@ -238,6 +231,18 @@
             this.guna2Button2.TextOffset = new System.Drawing.Point(30, 0);
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
+            // ibIUser
+            // 
+            this.ibIUser.AutoSize = true;
+            this.ibIUser.BackColor = System.Drawing.Color.Transparent;
+            this.ibIUser.ForeColor = System.Drawing.Color.White;
+            this.ibIUser.Location = new System.Drawing.Point(79, 89);
+            this.ibIUser.Name = "ibIUser";
+            this.ibIUser.Size = new System.Drawing.Size(75, 20);
+            this.ibIUser.TabIndex = 2;
+            this.ibIUser.Text = "Username";
+            this.ibIUser.Click += new System.EventHandler(this.label1_Click);
+            // 
             // guna2Button1
             // 
             this.guna2Button1.AutoRoundedCorners = true;
@@ -276,30 +281,25 @@
             this.guna2CirclePictureBox1.UseTransparentBackground = true;
             this.guna2CirclePictureBox1.Click += new System.EventHandler(this.guna2CirclePictureBox1_Click);
             // 
-            // guna2Button7
+            // guna2Panel3
             // 
-            this.guna2Button7.AutoRoundedCorners = true;
-            this.guna2Button7.BackColor = System.Drawing.Color.RoyalBlue;
-            this.guna2Button7.BorderRadius = 21;
-            this.guna2Button7.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.guna2Button7.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(92)))), ((int)(((byte)(214)))));
-            this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button7.FillColor = System.Drawing.Color.RoyalBlue;
-            this.guna2Button7.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button7.ForeColor = System.Drawing.Color.White;
-            this.guna2Button7.Image = global::inventory.Properties.Resources.user_1_;
-            this.guna2Button7.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button7.ImageOffset = new System.Drawing.Point(15, 0);
-            this.guna2Button7.Location = new System.Drawing.Point(12, 445);
-            this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.Size = new System.Drawing.Size(200, 45);
-            this.guna2Button7.TabIndex = 7;
-            this.guna2Button7.Text = "User";
-            this.guna2Button7.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button7.TextOffset = new System.Drawing.Point(30, 0);
+            this.guna2Panel3.Controls.Add(this.CenterPanel);
+            this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2Panel3.Location = new System.Drawing.Point(377, 100);
+            this.guna2Panel3.Name = "guna2Panel3";
+            this.guna2Panel3.Size = new System.Drawing.Size(968, 680);
+            this.guna2Panel3.TabIndex = 2;
+            // 
+            // CenterPanel
+            // 
+            this.CenterPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.CenterPanel.Location = new System.Drawing.Point(6, 6);
+            this.CenterPanel.Name = "CenterPanel";
+            this.CenterPanel.Size = new System.Drawing.Size(990, 671);
+            this.CenterPanel.TabIndex = 3;
+            this.CenterPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel4_Paint);
             // 
             // frmMain
             // 
@@ -321,8 +321,8 @@
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
-            this.guna2Panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
+            this.guna2Panel3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
